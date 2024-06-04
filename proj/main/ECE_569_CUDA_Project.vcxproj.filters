@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{0facae07-2c42-4260-825c-f2bb4d1e6c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{78a5d6f7-87b0-4000-82a3-8d9e874c57fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\external">
+      <UniqueIdentifier>{365994e9-df2e-459c-bac4-76f389f57dfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\milestones">
+      <UniqueIdentifier>{e7160808-6104-4aac-aa03-c6fff46b3eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\milestones\colorspace">
+      <UniqueIdentifier>{22de4bf5-6f09-4071-baab-c2ec545f474d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\milestones\convolution">
+      <UniqueIdentifier>{3d383732-33b9-400f-82d0-ee1ad40c0398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\milestones\integration">
+      <UniqueIdentifier>{69901b36-5459-406f-94e2-e81c9117afab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\milestones\thresholding">
+      <UniqueIdentifier>{86350c20-43b3-432a-8546-9f829e8dbc3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\milestones\colorspace\include">
+      <UniqueIdentifier>{495f2aba-9dca-42a9-9a7e-2f55c13b166f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\milestones\convolution\include">
+      <UniqueIdentifier>{df55e67c-ceff-4bc5-ba40-ae5c4b3e813e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\milestones\integration\include">
+      <UniqueIdentifier>{23712bc9-4248-4120-8204-903c4121655c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\milestones\thresholding\include">
+      <UniqueIdentifier>{604d33c4-21ae-405b-9a7f-2dd3510afc92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common\include">
+      <UniqueIdentifier>{375f1d0c-89ed-45f6-bf63-e2feeb69a95c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\external\libwb">
+      <UniqueIdentifier>{d096e380-f875-4b63-86b6-7e5031ed7e4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\external\libwb\vendor">
+      <UniqueIdentifier>{19a7d239-5c67-4cc7-b1aa-41ca847ed1df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\external\libwb\wb.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbArg.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbAssert.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbCast.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbComparator.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbCUDA.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbDataset.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbDirectory.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbExit.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbExport.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbFile.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbImage.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbImport.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbInit.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbLogger.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbMalloc.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbMD5.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbMPI.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbPath.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbPPM.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbSolution.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbSort.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbSparse.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbString.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbThrust.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbTimer.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbTypes.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\wbUtils.h">
+      <Filter>src\external\libwb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\vendor\json11.hpp">
+      <Filter>src\external\libwb\vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\vendor\sole.hpp">
+      <Filter>src\external\libwb\vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\external\libwb\vendor\catch.hpp">
+      <Filter>src\external\libwb\vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\include\ProjectDefs.h">
+      <Filter>src\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\milestones\colorspace\include\ColorspaceKernelDefs.cuh">
+      <Filter>src\milestones\colorspace\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\milestones\convolution\include\ConvolutionKernelDefs.cuh">
+      <Filter>src\milestones\convolution\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\milestones\integration\include\IntegrationKernelDefs.cuh">
+      <Filter>src\milestones\integration\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\milestones\thresholding\include\ThresholdingKernelDefs.cuh">
+      <Filter>src\milestones\thresholding\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\external\libwb\wb_test.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\wbArg.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\wbCUDA.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\wbDataset.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\wbDataset_test.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\wbDirectory.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\wbExit.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\wbExport.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\wbFile.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\wbImage.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\wbImport.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\wbInit.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\wbLogger.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\wbMPI.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\wbPath.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\wbPPM.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\wbSolution.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\wbSparse.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\wbTimer.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\wbUtils.cpp">
+      <Filter>src\external\libwb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\external\libwb\vendor\json11.cpp">
+      <Filter>src\external\libwb\vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\Common.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\external\libwb\.clang-format">
+      <Filter>src\external\libwb</Filter>
+    </None>
+    <None Include="..\..\src\external\libwb\.gitignore">
+      <Filter>src\external\libwb</Filter>
+    </None>
+    <None Include="..\..\src\external\libwb\.travis.yml">
+      <Filter>src\external\libwb</Filter>
+    </None>
+    <None Include="..\..\src\external\libwb\appveyor.yml">
+      <Filter>src\external\libwb</Filter>
+    </None>
+    <None Include="..\..\src\external\libwb\Makefile">
+      <Filter>src\external\libwb</Filter>
+    </None>
+    <None Include="..\..\src\external\libwb\README.md">
+      <Filter>src\external\libwb</Filter>
+    </None>
+    <None Include="..\..\src\external\libwb\sources.cmake">
+      <Filter>src\external\libwb</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\external\libwb\CMakeLists.txt">
+      <Filter>src\external\libwb</Filter>
+    </Text>
+    <Text Include="..\..\src\external\libwb\LICENSE.TXT">
+      <Filter>src\external\libwb</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\..\src\main.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\milestones\convolution\ConvolutionKernel.cu">
+      <Filter>src\milestones\convolution</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\milestones\convolution\ErosionKernel.cu">
+      <Filter>src\milestones\convolution</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\milestones\integration\ImageMappingKernel.cu">
+      <Filter>src\milestones\integration</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\milestones\integration\ImageMaskCombinationKernel.cu">
+      <Filter>src\milestones\integration</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\milestones\integration\ResultImageKernel.cu">
+      <Filter>src\milestones\integration</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\milestones\thresholding\HistogramKernel.cu">
+      <Filter>src\milestones\thresholding</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\milestones\thresholding\ImageBinarizationKernel.cu">
+      <Filter>src\milestones\thresholding</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\milestones\thresholding\VarianceKernel.cu">
+      <Filter>src\milestones\thresholding</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\milestones\colorspace\ColorspaceKernel.cu">
+      <Filter>src\milestones\colorspace</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,192 @@
+Property,Value
+Executable,C:\Users\medgar\GitHub\repos\ECE-569-CUDA-Shadow-Removal\proj\main\x64\Release\ECE_569_CUDA_Project.exe
+Working Directory,C:\Users\medgar\GitHub\repos\ECE-569-CUDA-Shadow-Removal\proj\main\
+Command Line Arguments,
+Environment,
+Activity Type,Interactive Profile
+Enable CPU Call Stack,Yes
+Enable NVTX Support,Yes
+Disable Profiling Start/Stop,No
+Enable Profiling From Start,Yes
+Clock Control,Base
+Property,Value
+Created,2024-Apr-28 19:24:06
+Host Name,LP-NOSAM-W10
+Host OS,Windows 10 (22H2) - 19045
+Host Architecture,x64
+Host Processor,12th Gen Intel(R) Core(TM) i7-12800H
+Target Name,LP-NOSAM-W10
+Target IP Addresses,"fe80::8c23:f5e3:5a1f:e29d, 172.30.180.176, 2600:8800:1f01:f720:c527:68cf:72c6:58ac, 2600:8800:1f01:f720:cc5b:7a6f:c392:aab7, fe80::e62b:92a5:46b0:53bc, 192.168.0.4, fe80::8c35:b91e:adb5:3a0d, 169.254.88.207, fe80::3500:74e8:9c8a:a7, 169.254.124.89, fe80::46cd:4c01:320f:a004, 169.254.49.235, fe80::e0b0:8204:777c:fbab, 169.254.39.153"
+Target OS,Windows 10 (22H2) - 19045
+Target Architecture,x64
+Target Processor,12th Gen Intel(R) Core(TM) i7-12800H
+CUDA Version,12.4
+Display Driver Version,551.78
+PerfWorks,0.1.0
+Nsight Compute Target,2024.1.1.0 (build 33998838) (public-release)
+Nsight Compute Host,2024.1.1.0 (build 33998838) (public-release)
+Attribute,NVIDIA RTX A2000 8GB Laptop GPU (0)
+architecture,368
+async_engine_count,5
+can_flush_remote_writes,0
+can_map_host_memory,1
+can_tex2d_gather,1
+can_use_64_bit_stream_mem_ops,1
+can_use_64_bit_stream_mem_ops_v1,0
+can_use_host_pointer_for_registered_mem,0
+can_use_stream_mem_ops_v1,0
+can_use_stream_wait_value_nor,1
+can_use_stream_wait_value_nor_v1,0
+chip,375
+clock_rate,1335000
+cluster_launch,0
+compute_capability_major,8
+compute_capability_minor,6
+compute_mode,0
+compute_preemption_supported,1
+concurrent_kernels,1
+concurrent_managed_access,0
+confidential_computing_mode,No-CC
+cooperative_launch,1
+cooperative_multi_device_launch,0
+deferred_mapping_cuda_array_supported,1
+device_index,0
+direct_managed_mem_access_from_host,0
+display_name,NVIDIA RTX A2000 8GB Laptop GPU
+dma_buf_supported,0
+ecc_enabled,0
+fb_bus_width,128
+fbp_count,2
+generic_compression_supported,1
+global_l1_cache_supported,1
+global_memory_bus_width,128
+gpu_direct_rdma_flush_writes_options,0
+gpu_direct_rdma_supported,0
+gpu_direct_rdma_with_cuda_vmm_supported,0
+gpu_direct_rdma_writes_ordering,0
+gpu_overlap,1
+gpu_pci_device_id,632951006
+gpu_pci_ext_device_id,9658
+gpu_pci_ext_downstream_link_rate,16000
+gpu_pci_ext_downstream_link_width,8
+gpu_pci_ext_gen,3
+gpu_pci_ext_gpu_gen,3
+gpu_pci_ext_gpu_link_rate,16000
+gpu_pci_ext_gpu_link_width,16
+gpu_pci_revision_id,161
+gpu_pci_sub_system_id,2311131196
+handle_type_posix_file_descriptor_supported,0
+handle_type_win32_handle_supported,1
+handle_type_win32_kmt_handle_supported,1
+host_native_atomic_supported,0
+host_numa_id,0
+host_register_supported,1
+implementation,375
+integrated,0
+ipc_event_supported,1
+kernel_exec_timeout,1
+l2_cache_size,2097152
+l2s_count,16
+limits_max_cta_per_sm,16
+local_l1_cache_supported,1
+managed_memory,1
+max_access_policy_window_size,134213632
+max_block_dim_x,1024
+max_block_dim_y,1024
+max_block_dim_z,64
+max_blocks_per_multiprocessor,16
+max_gpu_frequency_khz,1335000
+max_grid_dim_x,2147483647
+max_grid_dim_y,65535
+max_grid_dim_z,65535
+max_ipc_per_multiprocessor,4
+max_ipc_per_scheduler,1
+max_mem_frequency_khz,5470000
+max_persisting_l2_cache_size,1441792
+max_pitch,2147483647
+max_registers_per_block,65536
+max_registers_per_multiprocessor,65536
+max_registers_per_thread,255
+max_shared_memory_per_block,49152
+max_shared_memory_per_block_optin,101376
+max_shared_memory_per_multiprocessor,102400
+max_threads_per_block,1024
+max_threads_per_multiprocessor,1536
+max_warps_per_multiprocessor,48
+max_warps_per_scheduler,12
+maximum_surface1d_layered_layers,2048
+maximum_surface1d_layered_width,32768
+maximum_surface1d_width,32768
+maximum_surface2d_height,65536
+maximum_surface2d_layered_height,32768
+maximum_surface2d_layered_layers,2048
+maximum_surface2d_layered_width,32768
+maximum_surface2d_width,131072
+maximum_surface3d_depth,16384
+maximum_surface3d_height,16384
+maximum_surface3d_width,16384
+maximum_surfacecubemap_layered_layers,2046
+maximum_surfacecubemap_layered_width,32768
+maximum_surfacecubemap_width,32768
+maximum_texture1d_layered_layers,2048
+maximum_texture1d_layered_width,32768
+maximum_texture1d_linear_width,268435456
+maximum_texture1d_mipmapped_width,32768
+maximum_texture1d_width,131072
+maximum_texture2d_gather_height,32768
+maximum_texture2d_gather_width,32768
+maximum_texture2d_height,65536
+maximum_texture2d_layered_height,32768
+maximum_texture2d_layered_layers,2048
+maximum_texture2d_layered_width,32768
+maximum_texture2d_linear_height,65000
+maximum_texture2d_linear_pitch,2097120
+maximum_texture2d_linear_width,131072
+maximum_texture2d_mipmapped_height,32768
+maximum_texture2d_mipmapped_width,32768
+maximum_texture2d_width,131072
+maximum_texture3d_depth,16384
+maximum_texture3d_depth_alternate,32768
+maximum_texture3d_height,16384
+maximum_texture3d_height_alternate,8192
+maximum_texture3d_width,16384
+maximum_texture3d_width_alternate,8192
+maximum_texturecubemap_layered_layers,2046
+maximum_texturecubemap_layered_width,32768
+maximum_texturecubemap_width,32768
+mem_sync_domain_count,1
+memory_clock_rate,5470000
+memory_pools_supported,1
+mempool_supported_handle_types,0
+mps_enabled,0
+multi_gpu_board,0
+multi_gpu_board_group_id,0
+multicast_supported,0
+multiprocessor_count,20
+num_l2s_per_fbp,8
+num_schedulers_per_multiprocessor,4
+num_tex_per_multiprocessor,1
+numa_config,0
+pageable_memory_access,0
+pageable_memory_access_uses_host_page_tables,0
+pci_bus_id,1
+pci_device_id,0
+pci_domain_id,0
+ram_location,1
+ram_type,17
+reserved_shared_memory_per_block,1024
+sass_level,8
+single_to_double_precision_perf_ratio,32
+sparse_cuda_array_supported,1
+stream_priorities_supported,1
+surface_alignment,512
+tcc_driver,0
+tensor_map_access_supported,0
+texture_alignment,512
+texture_pitch_alignment,32
+total_constant_memory,65536
+total_memory,8589475840
+unified_addressing,1
+unified_function_pointers,0
+virtual_address_management_supported,1
+warp_size,32

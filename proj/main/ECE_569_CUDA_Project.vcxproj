@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Optimized|x64">
+      <Configuration>Optimized</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\common\include\ProjectDefs.h" />
+    <ClInclude Include="..\..\src\external\libwb\vendor\catch.hpp" />
+    <ClInclude Include="..\..\src\external\libwb\vendor\json11.hpp" />
+    <ClInclude Include="..\..\src\external\libwb\vendor\sole.hpp" />
+    <ClInclude Include="..\..\src\external\libwb\wb.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbArg.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbAssert.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbCast.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbComparator.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbCUDA.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbDataset.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbDirectory.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbExit.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbExport.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbFile.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbImage.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbImport.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbInit.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbLogger.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbMalloc.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbMD5.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbMPI.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbPath.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbPPM.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbSolution.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbSort.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbSparse.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbString.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbThrust.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbTimer.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbTypes.h" />
+    <ClInclude Include="..\..\src\external\libwb\wbUtils.h" />
+    <ClInclude Include="..\..\src\milestones\colorspace\include\ColorspaceKernelDefs.cuh" />
+    <ClInclude Include="..\..\src\milestones\convolution\include\ConvolutionKernelDefs.cuh" />
+    <ClInclude Include="..\..\src\milestones\integration\include\IntegrationKernelDefs.cuh" />
+    <ClInclude Include="..\..\src\milestones\thresholding\include\ThresholdingKernelDefs.cuh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\common\Common.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\vendor\json11.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wbArg.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wbCUDA.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wbDataset.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wbDataset_test.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wbDirectory.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wbExit.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wbExport.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wbFile.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wbImage.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wbImport.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wbInit.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wbLogger.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wbMPI.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wbPath.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wbPPM.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wbSolution.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wbSparse.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wbTimer.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wbUtils.cpp" />
+    <ClCompile Include="..\..\src\external\libwb\wb_test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\external\libwb\.clang-format" />
+    <None Include="..\..\src\external\libwb\.gitignore" />
+    <None Include="..\..\src\external\libwb\.travis.yml" />
+    <None Include="..\..\src\external\libwb\appveyor.yml" />
+    <None Include="..\..\src\external\libwb\Makefile" />
+    <None Include="..\..\src\external\libwb\README.md" />
+    <None Include="..\..\src\external\libwb\sources.cmake" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\external\libwb\CMakeLists.txt" />
+    <Text Include="..\..\src\external\libwb\LICENSE.TXT" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\..\src\main.cu" />
+    <CudaCompile Include="..\..\src\milestones\colorspace\ColorspaceKernel.cu" />
+    <CudaCompile Include="..\..\src\milestones\convolution\ConvolutionKernel.cu" />
+    <CudaCompile Include="..\..\src\milestones\convolution\ErosionKernel.cu" />
+    <CudaCompile Include="..\..\src\milestones\integration\ImageMappingKernel.cu" />
+    <CudaCompile Include="..\..\src\milestones\integration\ImageMaskCombinationKernel.cu" />
+    <CudaCompile Include="..\..\src\milestones\integration\ResultImageKernel.cu" />
+    <CudaCompile Include="..\..\src\milestones\thresholding\HistogramKernel.cu" />
+    <CudaCompile Include="..\..\src\milestones\thresholding\ImageBinarizationKernel.cu" />
+    <CudaCompile Include="..\..\src\milestones\thresholding\VarianceKernel.cu" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B51A2EF7-78AD-4156-AF22-2B318411034E}</ProjectGuid>
+    <RootNamespace>ECE_569_CUDA</RootNamespace>
+    <ProjectName>ECE_569_CUDA_Project</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optimized|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 12.4.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="ECE_569_CUDA_PROJECT.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="ECE_569_CUDA_PROJECT.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Optimized|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="ECE_569_CUDA_PROJECT.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optimized|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>
+            WIN32;WIN64;_DEBUG;_CONSOLE;WB_USE_JSON11=0;__CUDACC__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\src\external\libwb;$(ProjectDir)..\..\src\external\libwb\vendor;$(ProjectDir)..\..\src\common\include;$(ProjectDir)..\..\src\milestones\colorspace\include;$(ProjectDir)..\..\src\milestones\convolution\include;$(ProjectDir)..\..\src\milestones\integration\include;$(ProjectDir)..\..\src\milestones\thresholding\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>cudart_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <CudaCompile>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+      <GPUDebugInfo>true</GPUDebugInfo>
+      <GenerateLineInfo>true</GenerateLineInfo>
+      <HostDebugInfo>true</HostDebugInfo>
+      <Optimization>Od</Optimization>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>
+            WIN32;WIN64;_DEBUG;_CONSOLE;WB_USE_JSON11=0;__CUDACC__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\src\external\libwb;$(ProjectDir)..\..\src\external\libwb\vendor;$(ProjectDir)..\..\src\common\include;$(ProjectDir)..\..\src\milestones\colorspace\include;$(ProjectDir)..\..\src\milestones\convolution\include;$(ProjectDir)..\..\src\milestones\integration\include;$(ProjectDir)..\..\src\milestones\thresholding\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>cudart_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <CudaCompile>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+      <GPUDebugInfo>false</GPUDebugInfo>
+      <GenerateLineInfo>true</GenerateLineInfo>
+      <HostDebugInfo>false</HostDebugInfo>
+      <Optimization>Od</Optimization>
+      <FastMath>true</FastMath>
+    </CudaCompile>
+    <CudaLink />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Optimized|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>
+            WIN32;WIN64;_DEBUG;_CONSOLE;WB_USE_JSON11=0;__CUDACC__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\src\external\libwb;$(ProjectDir)..\..\src\external\libwb\vendor;$(ProjectDir)..\..\src\common\include;$(ProjectDir)..\..\src\milestones\colorspace\include;$(ProjectDir)..\..\src\milestones\convolution\include;$(ProjectDir)..\..\src\milestones\integration\include;$(ProjectDir)..\..\src\milestones\thresholding\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>cudart_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <CudaCompile>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+      <GPUDebugInfo>false</GPUDebugInfo>
+      <GenerateLineInfo>false</GenerateLineInfo>
+      <HostDebugInfo>false</HostDebugInfo>
+      <Optimization>O2</Optimization>
+      <CodeGeneration>compute_60,sm_60</CodeGeneration>
+      <FastMath>true</FastMath>
+    </CudaCompile>
+    <CudaLink>
+      <GPUDebugInfo>false</GPUDebugInfo>
+    </CudaLink>
+    <CudaLink>
+      <Optimization>O2</Optimization>
+    </CudaLink>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 12.4.targets" />
+  </ImportGroup>
+</Project>
